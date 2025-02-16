@@ -2,7 +2,7 @@
 '''
 if input is less than 1 then return invlid nos
 if input is greater than 1 then ret
-> then check if the no is only divisible by 1 and itself then return true , else rwtuen false
+> then check if the no is only divisible by 1 and itself then return true , else return false
 '''
 '''
 global scope vs local scope
@@ -68,4 +68,3 @@ thislist = ["apple", "banana", "cherry"]
 tropical = ["mango", "pineapple", "papaya"]
 thislist.extend(tropical)
 print(thislist)
- 
