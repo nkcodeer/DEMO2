@@ -1,0 +1,44 @@
+A dictionary in Python is a collection of key-value pairs. It is defined using {} and allows efficient data retrieval. Here's an example:
+
+python
+# Creating a dictionary
+student = {
+    "name": "Rahul",
+    "age": 22,
+    "course": "Computer Science",
+    "grade": "A"
+}
+
+# Accessing values
+print(student["name"])  # Output: Rahul
+
+
+1. *Create and Access a Dictionary:*  
+   Write a Python program to create a dictionary of five students with their marks and print the marks of a specific student.
+
+2. *Add and Update Values:*  
+   Write a Python program to add a new key-value pair to a dictionary and update an existing value.
+
+3. *Delete a Key from Dictionary:*  
+   Write a Python program to remove a specific key from a dictionary.
+
+4. *Check if Key Exists:*  
+   Write a function that checks whether a given key exists in a dictionary.
+
+5. *Iterate Through a Dictionary:*  
+   Write a Python program to iterate through all keys and values of a dictionary and print them.
+
+6. *Sort Dictionary by Values:*  
+   Write a Python program to sort a dictionary by its values in ascending order.
+
+7. *Merge Two Dictionaries:*  
+   Write a Python program to merge two dictionaries into one.
+
+8. *Find Maximum and Minimum Value in Dictionary:*  
+   Given a dictionary with numerical values, write a Python program to find the maximum and minimum values.
+
+9. *Invert a Dictionary (Swap Keys and Values):*  
+   Write a Python program to swap keys and values in a dictionary. Ensure that values are unique.
+
+10. *Count Word Frequency in a Sentence Using Dictionary:*  
+    Write a Python function that takes a sentence as input and returns a dictionary with words as keys and their frequency as values.
