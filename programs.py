@@ -72,3 +72,19 @@ if result != -1:
     print(f"Iterative: Target found at index {result}")
 else:
     print("Iterative: Target not found")
+
+#fibonachi nos 
+def fibo(n):
+
+    if n < 0:
+        return "invalid fibo number"
+    elif n == 0:
+        return [1]
+    elif n == 1:
+        return [1,1]
+    else:
+        lst = [1,1] # [1,1,2,3]
+        for i in range(2,n):  # i = 2 , i =3
+            lst.append(lst[i-2]+lst[i-1]) # lst[1],lst[2]
+        return lst
+print(fibo(20))            
