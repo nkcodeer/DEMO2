@@ -68,3 +68,22 @@ thislist = ["apple", "banana", "cherry"]
 tropical = ["mango", "pineapple", "papaya"]
 thislist.extend(tropical)
 print(thislist)
+#priniting nos in new line 
+for x in range(1, 6):
+ print()
+ for y in range(1,x+1):
+    print(y,end='')
+''''output   =
+1
+12
+123
+1234
+12345'''
+#palindrone nos
+num = 12321
+reverse = int(str(num)[::-1])
+
+if num == reverse:
+  print('Palindrome')
+else:
+  print("Not Palindrome")
